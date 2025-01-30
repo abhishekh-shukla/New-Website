@@ -1,0 +1,57 @@
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+  padding: 2rem;
+}
+
+.hero-text {
+  display: flex;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  margin: 0 0 1rem;
+}
+
+.hero-text .highlight {
+  color: #000;
+  background-color: #fff;
+  padding: 0 0.5rem;
+  border-radius: 5px;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  margin: 0 0 2rem;
+  display: flex;
+}
+
+.enroll-button {
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hero-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.illustration {
+  width: 80%;
+  height: auto;
+  background-color: #f5c78c;
+  border-radius: 10px;
+}
+.description {
+  display: flex;
+  justify-self: unset;
+}
