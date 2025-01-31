@@ -5,10 +5,10 @@ const MiddlePage = () => {
     return (
       <main className="main-content">
       <div className="hero-text">
-        <h1>Improve your <span className="highlight">Skills</span> Faster</h1>
+        <h1>Improve your<br/> <span className="highlight">Skills</span> Faster</h1>
       </div>
         <div className='description'>
-        <p>Speed up the skill acquisition process by finding unlimited courses that match your niche.</p>
+        <p>Speed Up The Skill Acquisition Process By <br/> Finding Unlimited Courses That Match <br/> Your Niche.</p>
         <button className="enroll-button">Enroll Now →</button>
         </div>
 
