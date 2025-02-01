@@ -12,8 +12,7 @@ const MiddlePage = () => {
         <button className="enroll-button">Enroll Now →</button>
         </div>
 
-      <di m
-      v className="hero-image">
+      <div className="hero-image">
         <div className="illustration">
           <img src={"/Images/MiddleImage"} alt="My Image" />
         </div>
