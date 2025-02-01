@@ -41,11 +41,13 @@ const StatNumber = ({ value, label, suffix = "" }) => {
 
 const Stats = () => {
   return (
+    <div className='stats-conatiner'>
     <div className="stats-grid">
-      <StatNumber value={4.5} label="Star Rating" suffix="+" />
-      <StatNumber value={30} label="Students" suffix="M" />
-      <StatNumber value={2} label="Courses" suffix="M+" />
-      <StatNumber value={1} label="Reviews" suffix="k+" />
+      <StatNumber value={4.5} label="80k Reviews" suffix="" /><span className='partion'>|</span>
+      <StatNumber value={30} label="Enrollments" suffix="M" /><span className='partion'>|</span>
+      <StatNumber value={2} label="Learners" suffix="M+" /><span className='partion'>|</span>
+      <StatNumber value={1} label="Popular Courses" suffix="k+" />
+    </div>
     </div>
   );
 };

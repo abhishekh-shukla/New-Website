@@ -21,9 +21,10 @@
 .hero-text .highlight {
   color: #ffffff;
   background-color: #000000;
-  padding: 1.2rem 1.6rem;
-  border-radius: 25%;
+  padding: 0.1rem 1.2rem;
+  border-radius: 38%;
 }
+
 
 .hero-text p {
   font-size: 1.2rem;
