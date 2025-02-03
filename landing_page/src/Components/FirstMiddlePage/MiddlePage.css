@@ -4,10 +4,10 @@
   align-items: center;
   flex: 1;
   padding: 2rem;
+  flex-wrap: wrap;
 }
 
 .hero-text {
-  display: flex;
   display: flex;
   margin-top: 6%;
   margin-left: 15%;
@@ -45,17 +45,10 @@
 }
 
 .hero-image {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .illustration {
-  width: 80%;
-  height: auto;
-  background-color: #f5c78c;
-  border-radius: 10px;
+
 }
 .description {
   display: grid;
