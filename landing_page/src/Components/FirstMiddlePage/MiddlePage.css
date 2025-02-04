@@ -3,11 +3,12 @@
   justify-content: space-between;
   align-items: center;
   flex: 1;
-  padding: 2rem;
+  /* padding: 2rem; */
+  flex-wrap: wrap;
+  background-color: rgb(239, 197, 116);
 }
 
 .hero-text {
-  display: flex;
   display: flex;
   margin-top: 6%;
   margin-left: 15%;
@@ -21,9 +22,10 @@
 .hero-text .highlight {
   color: #ffffff;
   background-color: #000000;
-  padding: 1.2rem 1.6rem;
-  border-radius: 25%;
+  padding: 0.1rem 1.2rem;
+  border-radius: 38%;
 }
+
 
 .hero-text p {
   font-size: 1.2rem;
@@ -44,20 +46,17 @@
 }
 
 .hero-image {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding-top: 10%;
 }
 
 .illustration {
-  width: 80%;
-  height: auto;
-  background-color: #f5c78c;
-  border-radius: 10px;
+
 }
 .description {
   display: grid;
-  margin-left: 25%;
+  margin-right: 15%;
   gap: 50%;
+}
+.middle-image{
+  max-width: 100%;
 }
