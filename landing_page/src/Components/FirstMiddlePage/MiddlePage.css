@@ -3,9 +3,8 @@
   justify-content: space-between;
   align-items: center;
   flex: 1;
-  /* padding: 2rem; */
+  padding: 2rem;
   flex-wrap: wrap;
-  background-color: rgb(239, 197, 116);
 }
 
 .hero-text {
@@ -46,7 +45,6 @@
 }
 
 .hero-image {
-  padding-top: 10%;
 }
 
 .illustration {
